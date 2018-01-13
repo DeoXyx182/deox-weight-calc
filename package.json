@@ -1,0 +1,33 @@
+{
+  "name": "deox-weight-calc",
+  "version": "0.1.0",
+  "description": "Convertidor de unidades de masa",
+  "main": "dist/src/deox-weight-calc.js",
+  "scripts": {
+    "build": "babel src/deox-weight-calc.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeoXyx182/deox-weight-calc.git"
+  },
+  "keywords": [
+    "platzi",
+    "weight",
+    "fundamentos",
+    "javascript",
+    "js"
+  ],
+  "author": "Sergio Santiago <sergiosantiagoglez@gmail.com> (https://twitter.com/DeoXyx182)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DeoXyx182/deox-weight-calc/issues"
+  },
+  "homepage": "https://github.com/DeoXyx182/deox-weight-calc#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0"
+  }
+}
